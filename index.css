@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+
+body {
+  cursor: auto;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+
+::selection {
+  background-color: rgba(147, 51, 234, 0.7);
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    cursor: auto;
+  }
+
+  a, button {
+    cursor: pointer;
+  }
+}
